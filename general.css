@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    /* font-family: 'Rubik Doodle Triangles', system-ui; */
 }
 
 :root {
@@ -17,4 +16,61 @@
 
 header {
     background: var(--main-color);
+    padding: 20px;
+}
+
+header a {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a {
+    font-size: 20px;
+}
+
+a.bring {
+    background: var(--other-color);
+    color: var(--main-color);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: 'Rubik Doodle Triangles', system-ui;
+}
+
+/* RESPONSIVE MEDIA */
+@media screen and (max-width:460px) {
+    .logo {
+        font-size: 30px;
+        font-family: 'Rubik Doodle Triangles', system-ui;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .logo {
+        font-size: 25px;
+        font-family: 'Rubik Doodle Triangles', system-ui;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        font-size: 15px;
+    }
 }
