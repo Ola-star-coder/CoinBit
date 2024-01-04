@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Rubik Doodle Triangles', system-ui; */
+}
+
+:root {
+    --main-color: #191919;
+    --main-text-color: #F6F6F6;
+    --second-main-color: #F6F6F6;
+    --second-main-text-color: #272727;
+    --third-text-color: #29ADB2;
+    --other-color: #FFFFDD;
+}
+
+header {
+    background: var(--main-color);
+}
