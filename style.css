@@ -1,0 +1,56 @@
+#hero {
+    padding: 2rem;
+    background: var(--main-color);
+    height: auto;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-text {
+    margin: 2rem;
+}
+
+.hero-text h2 {
+    font-size: 3.5rem;
+    color: var(--main-text-color);
+}
+
+.company {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3rem;
+}
+
+.hero-img img {
+    width: 100%;
+    color: var(--main-color);
+}
+
+/* RESPONSIVE FOR LANDING PAGE */
+
+@media screen and (max-width:1200px) {
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+
+    .company {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width:834px) {
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+
+    .hero {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -55,7 +55,7 @@ a.bring {
     font-family: 'Rubik Doodle Triangles', system-ui;
 }
 
-/* RESPONSIVE MEDIA */
+/* RESPONSIVE MEDIA  FOR LOGO*/
 @media screen and (max-width:460px) {
     .logo {
         font-size: 30px;
@@ -72,5 +72,14 @@ a.bring {
     nav ul li a {
         padding: 10px;
         font-size: 15px;
+    }
+}
+
+
+/* RESPONSIVE FOR LANDING PAGE */
+
+@media screen and (max-width:1200px) {
+    .hero-text h2 {
+        font-size: 2rem;
     }
 }
