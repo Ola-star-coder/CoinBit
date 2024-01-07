@@ -19,9 +19,7 @@
 }
 
 .company {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 3rem;
+    padding-top: 3rem;
 }
 
 .hero-img img {
@@ -35,13 +33,6 @@
     .hero-text h2 {
         font-size: 2rem;
     }
-
-    .company {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        margin-top: 3rem;
-    }
 }
 
 @media screen and (max-width:834px) {
@@ -52,5 +43,30 @@
     .hero {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:440px) {
+    .hero-text h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .hero-text {
+        margin: 2rem 0rem;
+    }
+
+    .company {
+        padding-top: 3rem;
+        text-align: center;
+    }
+
+    .hero-img img {
+        text-align: center;
+    }
+
+    .hero-img img {
+        width: 100%;
+        color: var(--main-color);
     }
 }
