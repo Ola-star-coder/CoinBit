@@ -70,3 +70,53 @@
         color: var(--main-color);
     }
 }
+
+#trader {
+    /* background: var(--main-color); */
+    color: var(--main-text-color);
+    background: black;
+}
+
+.trade {
+    padding-top: 4rem;
+}
+
+.trade-text {
+    text-align: center;
+}
+
+.trade-text h1 {
+    font-size: 40px;
+}
+
+.trade-text p {
+    color: rgb(125, 125, 125);
+    padding-top: 10px;
+}
+
+.trade-video {
+    text-align: center;
+}
+
+.video {
+    width: 70%;
+    padding: 2rem 0rem;
+}
+
+@media screen and (max-width:939px) {
+    .video {
+        width: 100%;
+        padding: 2rem 0rem;
+    }
+}
+
+@media screen and (max-width:535px) {
+    .trade-text h1 {
+        font-size: 30px;
+    }
+
+    .trade-text p {
+        color: rgb(125, 125, 125);
+        padding: 10px;
+    }
+}
