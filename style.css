@@ -183,7 +183,7 @@
 @media screen and (max-width:517px) {
     .help {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .content-help h2 {
@@ -197,5 +197,102 @@
     .help-head {
         font-size: 15px;
         padding: 2rem 2rem;
+    }
+}
+
+#buy-crypto {
+    padding-top: 3rem;
+    background: #efe4e408;
+}
+
+.crypto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.video-two img {
+    width: 100%;
+    padding: 3rem;
+}
+
+.crypto-text {
+    padding-top: 4rem;
+}
+
+.crypto-text-head {
+    padding-bottom: 2rem;
+}
+
+.crypto-text-head h3 {
+    color: rgb(41, 39, 39);
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 23px;
+}
+
+.crypto-text h2 {
+    font-size: 40px;
+    color: #0766AD;
+    padding: 1rem 0rem;
+}
+
+ul li {
+    list-style: none;
+    font-size: 22px;
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+ul li i {
+    padding: 0px 10px;
+    border: 1px solid #0766AD;
+    border-radius: 50px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin: 1rem 0rem;
+    font-weight: 700;
+    color: #fff;
+    background: #0766AD;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    transition: 0.5s;
+    background: #4e7592;
+}
+
+@media screen and (max-width:1283px) {
+    .crypto {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .crypto-text {
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+    .crypto-text-head {
+        padding-bottom: 0rem;
+        padding: 10px;
+    }
+
+    .crypto-text h2 {
+        font-size: 30px;
+        padding: 1rem 1rem;
+    }
+
+    ul li {
+        list-style: none;
+        font-size: 19px;
+        padding: 10px 1rem;
+        font-weight: 700;
     }
 }
