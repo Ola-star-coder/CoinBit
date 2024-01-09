@@ -268,7 +268,7 @@ button:hover {
     background: #4e7592;
 }
 
-@media screen and (max-width:1283px) {
+@media screen and (max-width:1284px) {
     .crypto {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
