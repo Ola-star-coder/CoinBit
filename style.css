@@ -436,3 +436,86 @@ span {
         padding: 20px 15px;
     }
 }
+
+#last {
+    padding: 1rem 0rem;
+}
+
+.last {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.last-text {
+    padding: 7rem 3rem;
+}
+
+.last-text h1 {
+    font-size: 5rem;
+}
+
+.last-text h3 {
+    padding-top: 2rem;
+    font-size: 20px;
+}
+
+.last-img img {
+    width: 100%;
+}
+
+@media screen and (max-width:1406px) {
+    .last-text h1 {
+        font-size: 4rem;
+    }
+
+    .last-text {
+        padding: 5rem 3rem;
+    }
+}
+
+@media screen and (max-width:1164px) {
+    .last-text h1 {
+        font-size: 3.5rem;
+    }
+
+    .last-text {
+        padding: 5rem 3rem;
+    }
+}
+
+@media screen and (max-width:1044px) {
+    .last-text h1 {
+        font-size: 3rem;
+    }
+
+    .last-text {
+        padding: 5rem 3rem;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .last-text h1 {
+        font-size: 3rem;
+    }
+
+    .last-text {
+        padding: 5rem 3rem;
+    }
+
+    .last {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:457px) {
+    .last-text h1 {
+        font-size: 2rem;
+    }
+
+    .last-text {
+        padding: 3rem 2rem;
+    }
+}
