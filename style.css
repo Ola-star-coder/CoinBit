@@ -519,3 +519,151 @@ span {
         padding: 3rem 2rem;
     }
 }
+
+footer {
+    padding: 50px;
+    background: black;
+    color: var(--main-text-color);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-sec h3 {
+    font-size: 22px;
+    padding-top: 1rem;
+}
+
+.footer-sec .logo {
+    font-size: 27px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-sec ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-sec .btn {
+    padding-top: 20px;
+}
+
+
+.footer-sec .btn a {
+    background: #0766AD;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    display: block;
+    margin: 10px 0px;
+    width: 230px;
+    text-align: center;
+    transition: 1s;
+}
+
+.btn a:last-child {
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.btn a:hover {
+    background: #4e7592;
+    transition: .5s;
+    border: none;
+}
+
+.footer-content h3 {
+    font-size: 25px;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    transition: 1s;
+}
+
+.footer-content ul li a:hover {
+    color: #0766AD;
+    transition: .5s;
+}
+
+@media screen and (max-width:1294px) {
+    .footer-sec h3 {
+        font-size: 17px;
+        padding: 1rem 1rem;
+    }
+
+    .footer-content h3 {
+        font-size: 25px;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:1157px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-sec h3 {
+        font-size: 17px;
+        padding: 1rem 1rem;
+    }
+
+    .footer-content h3 {
+        font-size: 25px;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:923px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-sec h3 {
+        font-size: 17px;
+        padding: 1rem 1rem;
+    }
+
+    .footer-content h3 {
+        font-size: 25px;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:665px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-sec h3 {
+        font-size: 16px;
+        padding: 1rem 1rem;
+    }
+
+    .footer-content h3 {
+        font-size: 23px;
+        padding: 1rem;
+    }
+
+    .footer-content ul li a {
+        font-size: 15px;
+    }
+
+    .footer-sec {
+        display: none;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
