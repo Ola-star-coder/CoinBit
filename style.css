@@ -667,3 +667,21 @@ footer {
         padding: 20px;
     }
 }
+
+.selectec {
+    text-align: right;
+    padding-top: 50px;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+select {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    background: black;
+}
