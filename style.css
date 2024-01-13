@@ -264,6 +264,11 @@ button {
     transition: 1s;
 }
 
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
 button:hover {
     transition: 0.5s;
     background: #4e7592;
