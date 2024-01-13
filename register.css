@@ -1,0 +1,108 @@
+#register {
+    padding-top: 3rem;
+}
+
+.register {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.register-img img {
+    width: 100%;
+}
+
+.register-input {
+    padding: 4rem;
+}
+
+.rgister-text {
+    padding: 10px;
+}
+
+.rgister-text p {
+    padding: 1rem 0rem;
+}
+
+.rgister-text a {
+    text-decoration: none;
+}
+
+form {
+    display: block;
+}
+
+input {
+    width: 400px;
+    margin: 1rem 0rem;
+    height: 50px;
+    padding: 0px 10px;
+    border: none;
+    border-bottom: 1px solid #0766AD;
+    outline: none;
+}
+
+button {
+    width: 65%;
+    height: 50px;
+    display: block;
+    border: none;
+    background: #0766AD;
+    color: aliceblue;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 400;
+    transition: 1s;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+
+button:hover {
+    background: #36678d;
+    transition: .5s;
+}
+
+@media screen and (max-width:1217px) {
+    .register-img {
+        padding-top: 3rem;
+    }
+}
+
+@media screen and (max-width:1163px) {
+    .register-img {
+        padding-top: 6rem;
+    }
+}
+
+@media screen and (max-width:897px) {
+    .register-img {
+        padding-top: 3rem;
+    }
+
+    .register {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:897px) {
+    .register-img {
+        padding-top: 3rem;
+    }
+
+    .register-input {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:897px) {
+    .register-img img {
+        width: 80%;
+        padding-top: 3rem;
+    }
+
+    input {
+        width: 90%;
+    }
+}
