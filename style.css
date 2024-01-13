@@ -670,11 +670,35 @@ footer {
 
 .selectec {
     text-align: right;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 
 hr {
     margin-top: 50px;
+}
+
+.sele {
+    text-align: left;
+    padding-top: 40px;
+}
+
+.sele p {
+    padding: 10px;
+}
+
+.stars i {
+    font-size: 30px;
+    padding: 10px 10px;
+    transition: 1s;
+}
+
+.stars {
+    text-align: right;
+}
+
+.stars i:hover {
+    color: #0766AD;
+    transition: .5s;
 }
 
 select {
@@ -684,4 +708,9 @@ select {
     border-bottom: 2px solid #fff;
     color: #fff;
     background: black;
+}
+
+.p p {
+    text-align: center;
+    letter-spacing: 1px;
 }
