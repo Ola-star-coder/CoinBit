@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register page</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/9bfd6572c2.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +13,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -25,10 +27,13 @@
     </header>
     <section id="register">
         <div class="register">
-            <div class="register-img">
+            <div class="register-img" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                 <img src="images/welcome 3.jpg" alt="sign in image">
             </div>
-            <div class="register-input">
+            <div class="register-input" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
                 <div class="rgister-text">
             <h2>Register new account</h2>
             <p> Have an account ? <a href="#">SIgn In Now</a></p>
@@ -45,5 +50,91 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-sec">
+                <a href="#" class="logo">🪙CoinBit</a>
+                <h3>Take your crypto <br>trading to the next level.</h3>
+                <div class="btn">
+                    <a href="register.html">Create New Account</a>
+                    <a href="#" class="rubbin">Sign In To your Account</a>
+                </div>
+            </div>
+            <div class="footer-content">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="">CoinBit Security</a></li>
+                    <li><a href="">CoinBit Careers</a></li>
+                    <li><a href="">CoinBit Blog</a></li>
+                    <li><a href="">Refer a Friend</a></li>
+                    <li><a href="">Support Center</a></li>
+                    <li><a href="">Institutions</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Buying Guides</h3>
+                <ul>
+                    <li><a href="">Buy Bitcoin</a></li>
+                    <li><a href="">Buy Dogecoin</a></li>
+                    <li><a href="">Buy Ethereum</a></li>
+                    <li><a href="">Buy Cardano</a></li>
+                    <li><a href="">Buy Litecoin</a></li>
+                    <li><a href="">Buy Crypto</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Crypto Education</h3>
+                <ul>
+                    <li><a href="">What is Bitcoin?</a></li>
+                    <li><a href="">What is Ethereum?</a></li>
+                    <li><a href="">What is a blockchain?</a></li>
+                    <li><a href="">What is an NFT?</a></li>
+                    <li><a href="">Learn crypto</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="sele">
+            <p><i class="fa-solid fa-copyright"></i> 2023-2024 inc</p>
+            <p>These materials are for general information purposes only and are not investment advice or a recommendation
+                or
+                solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy.
+                CoinBit does
+                not
+                and will not work to increase or decrease the price of any particular cryptoasset it makes available. Some
+                crypto
+                products and markets are unregulated, and you may not be protected by government compensation and/or
+                regulatory
+                protection schemes.</p>
+            <hr>
+            <div class="stars">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="selectec">
+            <select name="cars" id="cars">
+                <option value="">Choose Launguage</option>
+                <option value="volvo">English</option>
+                <option value="saab">French</option>
+                <option value="mercedes">Greek</option>
+                <option value="audi">Espaniol</option>
+            </select>
+        </div>
+    </footer>
+    <div class="p">
+        <p>Code By Ola_developer</p>
+    </div>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
