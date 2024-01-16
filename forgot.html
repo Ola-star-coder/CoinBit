@@ -17,16 +17,47 @@
         rel="stylesheet">
         <!--For Style-sheet -->
     <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="forgot.css">
 </head>
 <body>
+    <!-- NavBar -->
     <header>
+        <!-- Nav location -->
         <nav>
             <a href="#" class="logo">🪙CoinBit</a>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="register.html" class="bring">Register</a></li>
+                <li><a href="sign in.html" class="bring">Login</a></li>
             </ul>
         </nav>
     </header>
+    <!-- Section for forgot password -->
+    <section class="forgot">
+       <!-- main div -->
+        <div class="forgot-one">
+            <!-- Second div -->
+            <div class="input-link">
+       <!--form for inputs  -->
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <!-- form icon link -->
+                 <div class="form-link">
+                 <i class="fa-sharp fa-solid fa-lock"></i>
+                </div>
+            <!-- form text to tell meaning of website -->
+                <div class="form-text">
+                    <h3>Forgot Password ?</h3>
+                    <p>Easily receive your password <br>without creating new one.</p>
+                </div>
+                <!-- web 3 forms input -->
+            <input type="hidden" name="access_key" value="c8956ae6-6504-496d-a445-fc5631ebd117">
+                <!-- main inputs -->
+          <input type="text" name="name" placeholder="Username*" required>
+            <input type="email" name="email" placeholder="Enter email*" required>
+            <button type="submit">Submit Form</button>
+                
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
