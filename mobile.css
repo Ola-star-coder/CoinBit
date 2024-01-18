@@ -1,0 +1,161 @@
+/* Main section */
+.main-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+/* Text head section */
+.powerful-text {
+    font-size: 40px;
+    padding: 10px;
+}
+
+/* where the grid lies */
+.powerful {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 2rem;
+}
+
+/* Images for the apps */
+.apps img {
+    width: 70%;
+    border-radius: 20px;
+}
+
+/* Texts that describes the image */
+.app-text {
+    padding: 0rem 2rem;
+}
+
+/* App text images  */
+.app-text img {
+    transform: translateY(-50%);
+    width: 10%;
+    border-radius: 5px;
+}
+
+
+/* Main app text text head */
+.app-text h3 {
+    font-family: 'Rubik Doodle Triangles', system-ui;
+    font-size: 36px;
+}
+
+/* Main content for the app */
+.app-text p {
+    padding: 0rem 3rem;
+    letter-spacing: 0.7px;
+    line-height: 30px;
+    color: rgb(80, 80, 80);
+}
+
+/* Scan section */
+.scan {
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+/* Where the grid lies */
+.scan-down {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* The scan image */
+.scan-img img {
+    padding-top: 1rem;
+    width: 20%;
+}
+
+/* Scan button */
+.scan-btn a {
+    display: none;
+    border: 2px solid #0766AD;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+
+/* Media screen */
+/* Using max width */
+
+@media screen and (max-width:1213px) {
+    .app-text img {
+        width: 15%;
+    }
+
+    .apps img {
+        width: 90%;
+        border-radius: 20px;
+    }
+
+    .app-text p {
+        padding: 0rem 2rem;
+    }
+}
+
+
+
+@media screen and (max-width:967px) {
+    .powerful {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 2rem;
+    }
+
+    .app-text h3 {
+        font-family: 'Rubik Doodle Triangles', system-ui;
+        font-size: 36px;
+    }
+
+    .app-text p {
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .app-text img {
+        width: 12%;
+    }
+}
+
+@media screen and (max-width:641px) {
+    .powerful-text {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .app-text p {
+        font-size: 13px;
+        padding-bottom: 3rem;
+    }
+
+    .scan-img img {
+        display: none;
+    }
+
+    .scan-btn a {
+        display: block;
+        margin: 10px;
+    }
+
+    .scan-down {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .powerful-text {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .app-text img {
+        width: 20%;
+    }
+
+    .scan-img p {
+        display: none;
+    }
+}

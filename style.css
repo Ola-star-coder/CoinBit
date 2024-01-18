@@ -713,6 +713,7 @@ select {
     border-bottom: 2px solid #fff;
     color: #fff;
     background: black;
+    padding-left: 1rem;
 }
 
 .p p {
