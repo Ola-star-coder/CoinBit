@@ -1,0 +1,144 @@
+.first {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.text-one i {
+    font-size: 70px;
+    color: green;
+}
+
+.text-one h2 {
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.two {
+    padding-top: 1rem;
+}
+
+.open {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.open-img img {
+    width: 100%;
+}
+
+.open-text {
+    padding-top: 6rem;
+}
+
+.open-text h2 {
+    font-size: 46px;
+    padding-top: 3rem;
+}
+
+.open-text p {
+    font-size: 20px;
+    padding: 1rem 0rem;
+}
+
+input {
+    width: 70%;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 2px solid green;
+}
+
+button {
+    background: black;
+    color: aliceblue;
+    border: none;
+    width: 150px;
+    height: 40px;
+    transform: translateX(-100%);
+    cursor: pointer;
+}
+
+.hour {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.hours {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.hour-sec {
+    font-size: 50px;
+}
+
+@media screen and (max-width:1049px) {
+    button {
+        display: block;
+        background: black;
+        color: aliceblue;
+        border: none;
+        width: 150px;
+        height: 40px;
+        transform: translateX(-0%);
+        cursor: pointer;
+    }
+
+    input {
+        width: 90%;
+        height: 50px;
+        padding-left: 20px;
+        border-radius: 30px;
+        border: 2px solid green;
+    }
+
+    .open-text {
+        padding: 4rem;
+    }
+
+    .open-text h2 {
+        font-size: 36px;
+        padding-top: 3rem;
+    }
+}
+
+@media screen and (max-width:873px) {
+    .open {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .open-text {
+        padding-top: 2rem;
+    }
+
+    .open-text h2 {
+        font-size: 36px;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width:449px) {
+    .text-one h2 {
+        font-size: 30px;
+        padding: 30px;
+    }
+
+    .hour-sec {
+        font-size: 30px;
+    }
+
+    .open-text h2 {
+        font-size: 30px;
+        padding-top: 3rem;
+    }
+
+    .open-text p {
+        font-size: 15px;
+        padding: 1rem 0rem;
+    }
+
+    .open-text {
+        padding: 2rem;
+    }
+}
