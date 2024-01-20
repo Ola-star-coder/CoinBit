@@ -1,0 +1,52 @@
+/* First Section of the css */
+.first {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+/* The first H3 text */
+.first-text h3 {
+    font-size: 40px;
+    padding: 10px;
+    color: #0766AD;
+    font-style: oblique;
+}
+
+/* The div input */
+.first-help {
+    padding-top: 10px;
+}
+
+/* Input of search */
+input {
+    width: 500px;
+    height: 60px;
+    padding-left: 20px;
+    border: 2px solid #0766AD;
+    border-radius: 50px;
+}
+
+/* Search Button */
+.first-help i {
+    font-size: 25px;
+    margin-left: -70px;
+    cursor: pointer;
+}
+
+/* The first section media screen */
+@media screen and (max-width:521px) {
+    input {
+        width: 90%;
+        height: 60px;
+        padding-left: 20px;
+        border: 2px solid #0766AD;
+        border-radius: 50px;
+    }
+
+    .first-text h3 {
+        font-size: 30px;
+        padding: 10px;
+        color: #0766AD;
+        font-style: oblique;
+    }
+}
