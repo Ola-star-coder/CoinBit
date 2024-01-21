@@ -110,7 +110,6 @@ i {
 @media screen and (max-width:1015px) {
     .article {
         text-align: center;
-        grid-template-columns: repeat(1, 1fr);
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
