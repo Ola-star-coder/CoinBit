@@ -118,6 +118,7 @@ i {
     }
 }
 
+/* Form */
 .form-support {
     padding-top: 2rem;
 }
@@ -171,6 +172,7 @@ button {
     background: rgb(228, 223, 223);
 }
 
+/* Media screen */
 @media screen and (max-width:1277px) {
     .support-img img {
         padding: 2rem;
