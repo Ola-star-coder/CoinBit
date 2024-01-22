@@ -24,7 +24,7 @@
     <!-- links -->
     <link rel="stylesheet" href="general.css">
 
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 
      <link rel="stylesheet" href="support.css">
 </head>
@@ -98,6 +98,38 @@
             <p class="read"><i class="fa-sharp fa-solid fa-book-open"></i> 2mins</p>
         </div>
 
+    </div>
+   </section>
+   
+   <!-- FORM -->
+   <section class="form-support">
+
+    <!-- Main div -->
+    <div class="support">
+
+        <!-- where the images lies  -->
+        <div class="support-img">
+            <img src="images/email.svg" alt="contact image">
+        </div>
+          
+        <!-- Where the forms lies -->
+        <div class="support-input">
+            
+            <form action="https://api.web3forms.com/submit" method="POST">
+            
+                <input type="hidden" name="access_key" value="c8956ae6-6504-496d-a445-fc5631ebd117">
+            
+                <input type="text" name="name" placeholder="Name" required>
+
+                <input type="email" name="email" placeholder="Enter email" required>
+
+                <textarea name="message" placeholder="Your Message or problem" required></textarea>
+                
+                <button type="submit">Submit Form <i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+            
+            </form>
+
+        </div>
     </div>
    </section>
 </body>

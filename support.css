@@ -62,6 +62,7 @@ input {
     grid-template-columns: repeat(4, 1fr);
 }
 
+/* The article box */
 .article-box {
     background: #eeebeb;
     width: 300px;
@@ -100,6 +101,7 @@ i {
     cursor: pointer;
 }
 
+/* The media screen */
 @media screen and (max-width:1347px) {
     .article {
         display: grid;
@@ -113,5 +115,102 @@ i {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+
+.form-support {
+    padding-top: 2rem;
+}
+
+.support {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.support-img img {
+    padding-left: 2rem;
+    width: 100%;
+}
+
+.support-input {
+    padding-top: 2rem;
+}
+
+form {
+    padding-top: 3rem;
+}
+
+.support-input input {
+    width: 70%;
+    margin: 10px 0px;
+    border: none;
+    background: rgb(228, 223, 223);
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+textarea {
+    width: 70%;
+    height: 150px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    border: none;
+    background: rgb(228, 223, 223);
+}
+
+button {
+    width: 70%;
+    height: 50px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background: rgb(228, 223, 223);
+}
+
+@media screen and (max-width:1277px) {
+    .support-img img {
+        padding: 2rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1059px) {
+    .support-img img {
+        padding: 4rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:891px) {
+    .support {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .support-img img {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .support-input {
+        padding-top: 1rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:459px) {
+    .support-input input {
+        width: 80%;
+    }
+
+    textarea {
+        width: 80%;
+    }
+
+    button {
+        width: 80%;
     }
 }
