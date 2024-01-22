@@ -167,6 +167,7 @@ button {
     border-radius: 10px;
     cursor: pointer;
     border: none;
+    color: black;
     background: rgb(228, 223, 223);
 }
 
