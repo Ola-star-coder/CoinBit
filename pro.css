@@ -1,0 +1,61 @@
+.pro-text p {
+    padding: 1rem;
+}
+
+.web {
+    background: #020322;
+    color: #fff;
+    padding-top: 2rem;
+}
+
+.webs-head {
+    text-align: center;
+    padding: 10px;
+}
+
+.webs-head h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.webs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.webs-box {
+    background: #0B2447;
+    margin: 2rem;
+    border-radius: 30px;
+    width: 370px;
+}
+
+.content-webs {
+    text-align: left;
+    padding: 2rem;
+}
+
+.content-webs h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.content-webs p {
+    font-weight: 300;
+}
+
+.webs-img {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.webs-img img {
+    border-radius: 20px;
+    width: 90%;
+}
