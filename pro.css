@@ -231,10 +231,11 @@
     }
 
     .pro-inputs {
-        padding: 2rem;
+        padding: 0rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
 
     .head-column {
@@ -242,4 +243,35 @@
         font-size: 20px;
         padding: 1rem 10px;
     }
+}
+
+/* Order section */
+.order-section {
+    background: #050402;
+    color: #fff;
+    padding-top: 2rem;
+}
+
+.order-head {
+    text-align: center;
+    padding: 10px;
+}
+
+.order-head h2 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.order {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.orders {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.orders img {
+    width: 90%;
 }
