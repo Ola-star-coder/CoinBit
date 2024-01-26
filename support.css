@@ -71,6 +71,13 @@ input {
     padding: 20px;
     text-align: left;
     transition: 1s;
+    cursor: pointer;
+}
+
+.article-box:hover {
+    transform: scale(1.05);
+    background: #ffe7e7;
+    transition: .5s;
 }
 
 .article-box h3 {
@@ -92,13 +99,6 @@ input {
 
 i {
     padding-right: 10px;
-}
-
-.article-box:hover {
-    transform: scale(1.05);
-    background: #ffe7e7;
-    transition: .5s;
-    cursor: pointer;
 }
 
 /* The media screen */
