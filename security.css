@@ -1,0 +1,69 @@
+.secured-first {
+    padding-top: 1rem;
+    color: white;
+    background-image: url(images/security\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secured-first-content {
+    padding: 3rem;
+}
+
+.secured-first-content h2 {
+    padding-bottom: 1rem;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.secured-first-content p {
+    padding: 1rem 0rem;
+    color: rgb(255, 254, 254);
+}
+
+@media screen and (max-width:725px) {
+    .secured-first-content h2 {
+        padding: 1rem;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .secured-first-content p {
+        padding: 1rem;
+        color: rgb(208, 205, 205);
+    }
+
+    .secured-first-content {
+        padding: 1rem;
+    }
+
+    .secured-first {
+        padding-top: 1rem;
+        color: white;
+        background: black;
+        background-image: none;
+        background-position: none;
+        background-repeat: none;
+        background-size: none;
+    }
+}
+
+
+@media screen and (max-width:440px) {
+    .secured-first-content h2 {
+        padding: 1rem;
+        font-size: 23px;
+        font-weight: 400;
+    }
+
+    .secured-first-content p {
+        padding: 1rem;
+        font-size: 14px;
+        color: rgb(208, 205, 205);
+    }
+
+    .secured-first-content {
+        padding: 1rem;
+    }
+}
