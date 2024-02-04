@@ -1,3 +1,5 @@
+/* security frontend */
+
 .secured-first {
     padding-top: 1rem;
     color: white;
@@ -7,6 +9,7 @@
     background-size: cover;
 }
 
+/* The content of the frontend */
 .secured-first-content {
     padding: 3rem;
 }
@@ -22,6 +25,7 @@
     color: rgb(255, 254, 254);
 }
 
+/* The media screen */
 @media screen and (max-width:725px) {
     .secured-first-content h2 {
         padding: 1rem;
@@ -65,5 +69,148 @@
 
     .secured-first-content {
         padding: 1rem;
+    }
+}
+
+/* The second content of the page */
+
+.security-prefer {
+    padding: 3rem 4rem;
+}
+
+.security-prefer-cont h2 {
+    font-size: 40px;
+    color: #0766AD;
+}
+
+.security-prefer-cont p {
+    padding: 1rem 0rem;
+    /* text-align: left; */
+}
+
+@media screen and (max-width:950px) {
+    .security-prefer-cont h2 {
+        font-size: 30px;
+        color: #0766AD;
+    }
+
+    .security-prefer {
+        padding: 1rem 2rem;
+    }
+
+    .security-prefer-cont p {
+        padding: 1rem 0rem;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .security-prefer-cont h2 {
+        font-size: 20px;
+        color: #0766AD;
+    }
+
+    .security-prefer {
+        padding: 1rem 1rem;
+    }
+
+    .security-prefer-cont p {
+        padding: 1rem 0rem;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+.security-stages {
+    padding: 4rem;
+}
+
+.head-security {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.head-security h2 {
+    font-size: 40px;
+}
+
+
+.secured-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.secured-features-content {
+    padding: 2rem 0rem;
+}
+
+.secured-features-content i {
+    padding-right: 50px;
+    border: 2px solid #0766AD;
+    border-radius: 50px;
+    padding: 1rem;
+    transform: translateY(100%);
+}
+
+.secured-features-content h3 {
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 4rem;
+}
+
+@media screen and (max-width:942px) {
+    .secured-features-content {
+        padding: 1rem 2rem;
+    }
+
+    .security-stages {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:728px) {
+    .secured-features-content {
+        padding: 1rem 1rem;
+    }
+
+    .security-stages {
+        padding: 1rem;
+    }
+
+    .secured-features-content h3 {
+        font-size: 13px;
+        font-weight: 300;
+        padding-left: 4rem;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .secured-features-content {
+        padding: 1rem 1rem;
+    }
+
+    .security-stages {
+        padding: 1rem;
+    }
+
+    .secured-features-content h3 {
+        font-size: 13px;
+        font-weight: 300;
+        padding-left: 4rem;
+    }
+
+    .secured-features {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .head-security h2 {
+        font-size: 40px;
+        padding: 1rem;
+        text-align: center;
     }
 }
