@@ -1,0 +1,47 @@
+.blog {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #110808), url(images/paralax\ 2.jpg);
+    color: aliceblue;
+    min-height: 700px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.blogger-head {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.blogger-head h2 {
+    font-size: 120px;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.blogger-head p {
+    padding: 1rem;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1129px) {
+    .blogger-head h2 {
+        font-size: 100px;
+        font-weight: 500;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:518px) {
+    .blogger-head h2 {
+        font-size: 60px;
+        font-weight: 500;
+        padding: 1rem;
+    }
+
+    .blogger-head p {
+        padding: 1rem;
+        font-size: 15px;
+    }
+}
