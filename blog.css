@@ -9,6 +9,17 @@
     width: 100%;
 }
 
+.blogs {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #110808), url(images/paralax\ 3.jpg);
+    color: aliceblue;
+    min-height: 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
 .blogger-head {
     text-align: center;
     padding-top: 5rem;
