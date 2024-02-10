@@ -1,0 +1,59 @@
+.refer-head {
+    background-image: url(images/share\ hero.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.refer-head-text {
+    padding: 5rem 9rem;
+    color: white;
+}
+
+.refer-head-text h2 {
+    font-size: 50px;
+}
+
+.refer-head-text img {
+    width: 5%;
+}
+
+@media screen and (max-width:989px) {
+    .refer-head-text {
+        padding: 5rem 4rem;
+        color: white;
+    }
+
+    .refer-head-text h2 {
+        font-size: 35px;
+    }
+
+    .refer-head-text img {
+        width: 10%;
+        display: none;
+    }
+
+    .refer-head {
+        background: black;
+        background-image: none;
+        background-position: none;
+        background-repeat: none;
+        background-size: none;
+    }
+}
+
+@media screen and (max-width:491px) {
+    .refer-head-text h2 {
+        font-size: 30px;
+        padding-bottom: 1rem;
+    }
+
+    .refer-head-text p {
+        font-size: 12px;
+    }
+
+    .refer-head-text {
+        padding: 5rem 2rem;
+        color: white;
+    }
+}
