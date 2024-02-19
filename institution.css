@@ -1,0 +1,64 @@
+.hero-institution {
+    background: black;
+    color: aliceblue;
+}
+
+.hero-div-institution {
+    padding: 4rem;
+}
+
+.hero-div-institution h2 {
+    font-size: 60px;
+}
+
+.hero-div-institution h3 {
+    padding-top: 2rem;
+    font-size: 23px;
+    padding-bottom: 1rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width:872px) {
+    .hero-div-institution h2 {
+        font-size: 45px;
+    }
+
+    .hero-div-institution h3 {
+        padding-top: 2rem;
+        font-size: 18px;
+        padding-bottom: 1rem;
+        font-weight: 300;
+    }
+}
+
+@media screen and (max-width:676px) {
+    .hero-div-institution h2 {
+        font-size: 30px;
+    }
+
+    .hero-div-institution h3 {
+        padding-top: 2rem;
+        font-size: 15px;
+        padding-bottom: 1rem;
+        font-weight: 300;
+    }
+
+    .hero-div-institution {
+        padding: 4rem 2rem;
+    }
+}
+
+@media screen and (max-width:438px) {
+    .hero-div-institution h2 {
+        font-size: 23px;
+    }
+
+    .hero-div-institution h3 {
+        padding-top: 1rem;
+        font-size: 11px;
+    }
+
+    .hero-div-institution {
+        padding: 4rem 2rem;
+    }
+}
