@@ -27,6 +27,7 @@ header a {
 nav {
     display: flex;
     justify-content: space-between;
+    position: static;
 }
 
 nav ul {

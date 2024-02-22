@@ -1,3 +1,4 @@
+/* Hero page */
 .hero-institution {
     background: black;
     color: aliceblue;
@@ -18,6 +19,7 @@
     font-weight: 300;
 }
 
+/* The media */
 @media screen and (max-width:872px) {
     .hero-div-institution h2 {
         font-size: 45px;
@@ -61,4 +63,106 @@
     .hero-div-institution {
         padding: 4rem 2rem;
     }
+}
+
+/* The institution */
+.institution-design {
+    padding: 3rem;
+}
+
+.institution-design-head {
+    text-align: center;
+    padding: 1rem;
+}
+
+.institution-design-head h4 {
+    font-weight: 400;
+    color: rgb(69, 69, 69);
+}
+
+.institution-design-head h2 {
+    font-size: 40px;
+}
+
+/* The box */
+.box-instittution-design {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* The content */
+.box-content-design {
+    background: black;
+    color: white;
+    border-radius: 30px;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.box-content-design h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 1rem 0rem;
+}
+
+.box-content-design-image {
+    padding-top: 3rem;
+}
+
+.box-content-design-image img {
+    width: 100%;
+}
+
+/* The media */
+@media screen and (max-width:1315px) {
+    .box-instittution-design {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:1009px) {
+    .box-content-design h2 {
+        font-size: 26px;
+        font-weight: 600;
+        padding: 1rem 0rem;
+    }
+}
+
+@media screen and (max-width:891px) {
+    .box-instittution-design {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:453px) {
+    .institution-design {
+        padding: 1rem 0rem;
+    }
+
+    .institution-design-head h2 {
+        font-size: 24px;
+    }
+}
+
+/* The email us */
+
+.institution-email {
+    background: rgb(11, 2, 2);
+    padding: 2rem;
+    color: aliceblue;
+}
+
+.institution-email-head {
+    text-align: center;
+    padding: 2rem;
+}
+
+.institution-email-head h2 {
+    font-size: 40px;
+}
+
+.institution-email-head p {
+    padding: 1rem;
 }
