@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr;
+
+    grid-template-areas:
+        "side header"
+        "side main";
+}
+
+.header {
+    background-color: #fff;
+
+    grid-area: header;
+}
+
+.header a {
+    color: black;
+    padding-bottom: 1rem;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: 'Rubik Doodle Triangles', system-ui;
+}
+
+.sidebar {
+    background-color: rgb(24, 19, 19);
+    grid-area: side;
+}
+
+.main {
+    background-color: #c1c1c1;
+
+    grid-area: main;
+
+    /* nested grid */
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-areas:
+        "c1 c2 c3"
+        "c4 c4 c5"
+        "c4 c4 c6";
+
+}
+
+.card {
+    background-color: #f2d2d2;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.card:nth-child(1) {
+    grid-area: c1;
+}
+
+
+.card img {
+    width: 100%;
+}
+
+
+.card:nth-child(2) {
+    grid-area: c2;
+}
+
+.card:nth-child(3) {
+    grid-area: c3;
+}
+
+.card:nth-child(4) {
+    grid-area: c4;
+}
+
+.card:nth-child(4) img {
+    width: 100%;
+}
+
+.card:nth-child(5) {
+    grid-area: c5;
+}
+
+.card:nth-child(6) {
+    grid-area: c6;
+}
+
+@media screen and (max-width:767px) {
+    .main {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 200px);
+        grid-template-areas: initial;
+    }
+
+    .card {
+        grid-area: initial !important;
+    }
+
+    body {
+        grid-template-columns: 100px 1fr;
+
+    }
+}
+
+@media screen and (max-width:519px) {
+    body {
+        grid-template-columns: 100px 1fr;
+
+    }
+
+    .card img {
+        width: 100%;
+    }
+}
