@@ -65,7 +65,7 @@ body {
 
 
 .card img {
-    width: 100%;
+    width: 80%;
 }
 
 
@@ -81,8 +81,9 @@ body {
     grid-area: c4;
 }
 
-.card:nth-child(4) img {
-    width: 100%;
+.card:nth-child(4) h2 {
+    font-size: 43px;
+    text-align: center;
 }
 
 .card:nth-child(5) {
@@ -112,11 +113,59 @@ body {
 
 @media screen and (max-width:519px) {
     body {
-        grid-template-columns: 100px 1fr;
+        grid-template-columns: 110px 1fr;
 
     }
 
     .card img {
-        width: 100%;
+        width: 80%;
+    }
+}
+
+.side-bar-content {
+    padding: 1rem;
+    color: #fff;
+    position: fixed;
+}
+
+.user-info img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user-info p {
+    font-size: 13px;
+}
+
+.sidebar-remaining-content {
+    padding: 1rem 0rem;
+}
+
+.sidebar-remaining-content p {
+    font-size: 19px;
+    margin: 2rem 0rem;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.sidebar-remaining-content p:hover,
+.active {
+    background: green;
+    color: white;
+    border-radius: 20px;
+    padding: 1rem;
+    transition: .5s;
+}
+
+@media screen and (max-width:767px) {
+    .user-info p {
+        font-size: 10px;
+    }
+
+    .sidebar-remaining-content p {
+        font-size: 12px;
+        margin: 2rem 0rem;
+        transition: 1s;
+        cursor: pointer;
     }
 }
