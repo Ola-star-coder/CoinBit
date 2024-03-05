@@ -169,3 +169,37 @@ body {
         cursor: pointer;
     }
 }
+
+.header-left {
+    padding-left: 1rem;
+    text-align: right;
+}
+
+.header-left i {
+    font-size: 26px;
+    color: #35374B;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0rem 1rem
+}
+
+.header-left i:hover {
+    color: #D2D180;
+    transition: .5s;
+}
+
+
+@media screen and (max-width:415px) {
+    .header-left {
+        padding-left: 0rem;
+        text-align: left;
+    }
+
+    .header-left i {
+        font-size: 20px;
+        color: #35374B;
+        cursor: pointer;
+        transition: .5s;
+        margin: 0rem 1rem
+    }
+}
