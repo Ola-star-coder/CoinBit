@@ -53,48 +53,136 @@ body {
 }
 
 .card {
-    background-color: #f2d2d2;
+    background-color: #eff2d2;
     border-radius: 20px;
     padding: 1rem;
     margin: 1rem;
+    transition: 1s;
+}
+
+.card h2 {
+    padding: 1rem 0rem;
+    font-size: 30px;
 }
 
 .card:nth-child(1) {
     grid-area: c1;
 }
 
-
-.card img {
-    width: 80%;
+.card:nth-child(1):hover {
+    background: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
 }
+
+.card i {
+    color: brown;
+}
+
 
 
 .card:nth-child(2) {
     grid-area: c2;
+    background: #E5E483;
+}
+
+.card:nth-child(2):hover {
+    background: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
 }
 
 .card:nth-child(3) {
     grid-area: c3;
+    background: #8583e5;
+}
+
+.card:nth-child(3):hover {
+    background: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
 }
 
 .card:nth-child(4) {
     grid-area: c4;
+    background-color: #f2d2d2;
 }
 
 .card:nth-child(4) h2 {
-    font-size: 43px;
+    font-size: 33px;
     text-align: center;
+}
+
+.card:nth-child(4) p {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.card:nth-child(4) .i-fa {
+    text-align: center;
+}
+
+.card:nth-child(4) .i-fa i {
+    font-size: 160px;
+}
+
+@media screen and (max-width:967px) {
+
+    .card:nth-child(4) h2 {
+        font-size: 33px;
+        text-align: center;
+        padding-top: 0rem;
+    }
+
+
+    .card:nth-child(4) .i-fa i {
+        font-size: 30px;
+        padding-top: 0rem;
+    }
+
+    .card:nth-child(4) p {
+        font-size: 14px;
+        text-align: center;
+        padding: 1rem 0rem;
+    }
+}
+
+@media screen and (max-width:467px) {
+    .card:nth-child(4) h2 {
+        font-size: 20px;
+        text-align: center;
+    }
 }
 
 .card:nth-child(5) {
     grid-area: c5;
+    background: #83e598;
+}
+
+.card:nth-child(5):hover {
+    background: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
 }
 
 .card:nth-child(6) {
     grid-area: c6;
+    background: #e58383;
 }
 
-@media screen and (max-width:767px) {
+.card:nth-child(6):hover {
+    background: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+@media screen and (max-width:967px) {
     .main {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 200px);
@@ -106,7 +194,7 @@ body {
     }
 
     body {
-        grid-template-columns: 100px 1fr;
+        grid-template-columns: 150px 1fr;
 
     }
 }
