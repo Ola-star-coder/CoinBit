@@ -4,20 +4,24 @@
     box-sizing: border-box;
 }
 
+/* Body for all */
 body {
     height: 100vh;
     display: grid;
     grid-template-columns: 200px 1fr;
     grid-template-rows: 60px 1fr;
 
+    /* Grid aAreas formula */
     grid-template-areas:
         "side header"
         "side main";
 }
 
+/* Header */
 .header {
     background-color: #fff;
 
+    /*Grid area  */
     grid-area: header;
 }
 
@@ -29,11 +33,15 @@ body {
     font-family: 'Rubik Doodle Triangles', system-ui;
 }
 
+/* Sidebar with the use grid */
 .sidebar {
     background-color: rgb(24, 19, 19);
+
+    /* Grid area */
     grid-area: side;
 }
 
+/* Main area */
 .main {
     background-color: #c1c1c1;
 
@@ -45,6 +53,7 @@ body {
 
     grid-template-columns: repeat(3, 1fr);
 
+    /* The grid areas */
     grid-template-areas:
         "c1 c2 c3"
         "c4 c4 c5"
@@ -52,6 +61,7 @@ body {
 
 }
 
+/*Card begins  */
 .card {
     background-color: #eff2d2;
     border-radius: 20px;
@@ -60,15 +70,18 @@ body {
     transition: 1s;
 }
 
+/* THe card h2 element */
 .card h2 {
     padding: 1rem 0rem;
     font-size: 30px;
 }
 
+/* The first child takes the first grid area */
 .card:nth-child(1) {
     grid-area: c1;
 }
 
+/* The hover */
 .card:nth-child(1):hover {
     background: black;
     color: white;
@@ -76,17 +89,18 @@ body {
     cursor: pointer;
 }
 
+/* The card icon */
 .card i {
     color: brown;
 }
 
-
-
+/* The first child takes the secondt grid area */
 .card:nth-child(2) {
     grid-area: c2;
     background: #E5E483;
 }
 
+/* The hover */
 .card:nth-child(2):hover {
     background: black;
     color: white;
@@ -94,6 +108,7 @@ body {
     cursor: pointer;
 }
 
+/* the third child the third grid area  */
 .card:nth-child(3) {
     grid-area: c3;
     background: #8583e5;
@@ -106,16 +121,19 @@ body {
     cursor: pointer;
 }
 
+/* The fourth grid area */
 .card:nth-child(4) {
     grid-area: c4;
     background-color: #f2d2d2;
 }
 
+/* The h2 is different */
 .card:nth-child(4) h2 {
     font-size: 33px;
     text-align: center;
 }
 
+/* The big dashboard p */
 .card:nth-child(4) p {
     font-size: 14px;
     text-align: center;
@@ -130,6 +148,7 @@ body {
     font-size: 160px;
 }
 
+/* Media screens */
 @media screen and (max-width:967px) {
 
     .card:nth-child(4) h2 {
@@ -291,3 +310,5 @@ body {
         margin: 0rem 1rem
     }
 }
+
+/* End of coinbit!!!!!!! */
